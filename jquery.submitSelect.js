@@ -1,9 +1,5 @@
-// =================================================================================
-// Decide which submit button should be used when the return ket is pressed
-// =================================================================================
 
 function submitSelect() {
-
 	var form = $( 'form' );
 
 	form.on( 'keypress', function( event ) {
